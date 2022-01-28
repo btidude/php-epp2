@@ -2,7 +2,6 @@
 
 /**
  * This file is part of the php-epp2 library.
- * Test?
  *
  * (c) Gunter Grodotzki <gunter@afri.cc>
  *
@@ -235,7 +234,7 @@ class Client extends AbstractClient implements ClientInterface
                 }
             } else {
                 // sleep 0.25s
-                usleep(250000);
+                //usleep(250000);
             }
 
             // update metadata
@@ -289,7 +288,7 @@ class Client extends AbstractClient implements ClientInterface
                 }
             } else {
                 // sleep 0.25s
-                usleep(250000);
+                //usleep(250000);
             }
 
             // update metadata
